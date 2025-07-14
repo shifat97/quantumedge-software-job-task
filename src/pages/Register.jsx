@@ -45,19 +45,6 @@ export default function Register() {
                 eyeIcon={true}
               />
             </div>
-            {/* <div className="flex justify-between items-center">
-            <div className="flex items-center gap-2">
-              <input
-                type="checkbox"
-                name="checkbox"
-                className="appearance-none checked:bg-[#05AF2B] checked:text-white w-[21px] h-[21px] bg-transparent border border-[#05AF2B]"
-              />
-              <span className="text-[#CCC] text-sm">Remember Me</span>
-            </div>
-            <a href="#" className="text-[#CCC] text-sm">
-              Forgot Password?
-            </a>
-          </div> */}
             <button
               type="submit"
               className="bg-[#05AF2B] py-[14px] px-[20px] rounded-full w-full text-white font-semibold text-[14px] mt-[30px]"
