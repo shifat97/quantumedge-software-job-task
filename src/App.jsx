@@ -7,17 +7,19 @@ import Register from "./pages/Register";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<Content />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-        </Routes>
-      </main>
-      <Footer />
-    </Router>
+    <main className="min-w-[600px]">
+      <Router>
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Content />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+          </Routes>
+        </main>
+        <Footer />
+      </Router>
+    </main>
   );
 }
 
