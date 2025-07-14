@@ -8,6 +8,7 @@ import InputField from "../templates/InputField";
 import { FaFacebookF, FaApple } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
+import { Link } from "react-router";
 
 export default function Login() {
   return (
@@ -23,7 +24,7 @@ export default function Login() {
           <p className="text-white text-center mt-[10.5px]">
             Don’t have an account?
             <span className="text-[#05AF2B] font-semibold ml-2">
-              <a href=""> Sign Up</a>
+              <Link to="/register"> Sign Up</Link>
             </span>
           </p>
           <form>

@@ -2,6 +2,7 @@ import { FaBars } from "react-icons/fa6";
 import { MdArrowDropDown } from "react-icons/md";
 import { logoImage, categoryIcon, shape } from "../constants/images";
 import { useState } from "react";
+import { Link } from "react-router";
 
 export default function Header() {
   const [toggle, setToggleState] = useState(false);
@@ -21,10 +22,10 @@ export default function Header() {
           <p>BECOME A SELLER</p>
         </button>
         <button className="text-white text-sm font-semibold block">
-          Login
+          <Link to="/login">Login</Link>
         </button>
         <button className="text-white text-sm font-semibold bg-[#05AF2B] rounded-full px-[14px] py-[9px]">
-          Registration
+          <Link to="/register">Registration</Link>
         </button>
       </span>
     );
