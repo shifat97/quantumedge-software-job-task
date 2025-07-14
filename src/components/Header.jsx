@@ -8,7 +8,7 @@ export default function Header() {
 
   const navItems = () => {
     return (
-      <span className="flex flex-col lg:flex-row lg:items-center justify-center gap-[28px]">
+      <span className="flex flex-col lg:flex-row lg:items-center justify-center gap-[28px] relative z-100">
         <div className="bg-[rgba(255,255,255,0.10)] rounded-[8px] lg:w-[345px] px-[10px] py-2 mr-[18px]">
           <div className="bg-[rgba(136,136,136,0.22)] w-[122px] px-[14px] py-[9px] flex items-center justify-between lg:justify-start lg:gap-2 rounded-[6px] text-white">
             <p>Freelance</p>
