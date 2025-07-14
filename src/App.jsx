@@ -10,7 +10,7 @@ function App() {
     <main className="min-w-[600px]">
       <Router>
         <Header />
-        <main>
+        <main className="flex flex-col min-h-screen">
           <Routes>
             <Route path="/" element={<Content />} />
             <Route path="/login" element={<Login />} />
