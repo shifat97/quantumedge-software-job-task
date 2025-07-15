@@ -1,0 +1,778 @@
+{
+  "status": true,
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "data": [
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "title": "Programming & Tech"
+      },
+      "sub_category": {
+        "id": 1,
+        "title": "Custom Software"
+      },
+      "job_type": {
+        "id": 1,
+        "title": "Short Term Project",
+        "slug": "short-term-project"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "label": "Python",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "Django",
+          "value": null
+        },
+        {
+          "id": 3,
+          "label": "React",
+          "value": null
+        },
+        {
+          "id": 4,
+          "label": "Node",
+          "value": null
+        },
+        {
+          "id": 5,
+          "label": "Marn-Stack",
+          "value": null
+        }
+      ],
+      "language": [
+        {
+          "id": 1,
+          "title": "Bangla",
+          "slug": "bangla"
+        },
+        {
+          "id": 2,
+          "title": "English",
+          "slug": "english"
+        }
+      ],
+      "keywords": [
+        {
+          "id": 1,
+          "title": "software",
+          "slug": "software"
+        },
+        {
+          "id": 2,
+          "title": "website",
+          "slug": "website"
+        },
+        {
+          "id": 3,
+          "title": "custom software",
+          "slug": "custom-software"
+        },
+        {
+          "id": 4,
+          "title": "website development",
+          "slug": "website-development"
+        },
+        {
+          "id": 5,
+          "title": "website design",
+          "slug": "website-design"
+        }
+      ],
+      "job_attachments": [
+        {
+          "id": 1,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarmale.png"
+        },
+        {
+          "id": 2,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarfemale.png"
+        }
+      ],
+      "job_applications": [],
+      "status": "Approved",
+      "hiring_status": "Open",
+      "is_active": true,
+      "title": "Job One Title",
+      "slug": "job-one-title",
+      "budget_type": "Fixed Rate",
+      "rate_from": "350.00",
+      "rate_to": "450.00",
+      "job_description": "In this role, you will be responsible for conducting comprehensive SEO audits and implementing strategies to optimize websites for improved search engine rankings, increased organic traffic, and enhanced user engagement, while staying up-to-date with the latest SEO trends and algorithm updates.",
+      "hiring_capacity": "5",
+      "experience_level": "Entry Level",
+      "project_duration": "3 Month",
+      "created_at": "2025-07-10T16:41:25.275896+06:00",
+      "updated_at": "2025-07-10T16:41:25.275919+06:00",
+      "buyer": 1,
+      "location": "Remote",
+      "posted_by": "Eamman Olio"
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "title": "Programming & Tech"
+      },
+      "sub_category": {
+        "id": 1,
+        "title": "Custom Software"
+      },
+      "job_type": {
+        "id": 1,
+        "title": "Short Term Project",
+        "slug": "short-term-project"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "label": "Python",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "Django",
+          "value": null
+        },
+        {
+          "id": 3,
+          "label": "React",
+          "value": null
+        },
+        {
+          "id": 4,
+          "label": "Node",
+          "value": null
+        },
+        {
+          "id": 5,
+          "label": "Marn-Stack",
+          "value": null
+        }
+      ],
+      "language": [
+        {
+          "id": 1,
+          "title": "Bangla",
+          "slug": "bangla"
+        },
+        {
+          "id": 2,
+          "title": "English",
+          "slug": "english"
+        }
+      ],
+      "keywords": [
+        {
+          "id": 1,
+          "title": "software",
+          "slug": "software"
+        },
+        {
+          "id": 2,
+          "title": "website",
+          "slug": "website"
+        },
+        {
+          "id": 3,
+          "title": "custom software",
+          "slug": "custom-software"
+        },
+        {
+          "id": 4,
+          "title": "website development",
+          "slug": "website-development"
+        },
+        {
+          "id": 5,
+          "title": "website design",
+          "slug": "website-design"
+        }
+      ],
+      "job_attachments": [
+        {
+          "id": 1,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarmale.png"
+        },
+        {
+          "id": 2,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarfemale.png"
+        }
+      ],
+      "job_applications": [],
+      "status": "Approved",
+      "hiring_status": "Open",
+      "is_active": true,
+      "title": "Job One Title",
+      "slug": "job-one-title",
+      "budget_type": "Fixed Rate",
+      "rate_from": "350.00",
+      "rate_to": "450.00",
+      "job_description": "In this role, you will be responsible for conducting comprehensive SEO audits and implementing strategies to optimize websites for improved search engine rankings, increased organic traffic, and enhanced user engagement, while staying up-to-date with the latest SEO trends and algorithm updates.",
+      "hiring_capacity": "5",
+      "experience_level": "Entry Level",
+      "project_duration": "3 Month",
+      "created_at": "2025-07-10T16:41:25.275896+06:00",
+      "updated_at": "2025-07-10T16:41:25.275919+06:00",
+      "buyer": 1,
+      "location": "Remote",
+      "posted_by": "Eamman Olio"
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "title": "Programming & Tech"
+      },
+      "sub_category": {
+        "id": 1,
+        "title": "Custom Software"
+      },
+      "job_type": {
+        "id": 1,
+        "title": "Short Term Project",
+        "slug": "short-term-project"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "label": "Python",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "Django",
+          "value": null
+        },
+        {
+          "id": 3,
+          "label": "React",
+          "value": null
+        },
+        {
+          "id": 4,
+          "label": "Node",
+          "value": null
+        },
+        {
+          "id": 5,
+          "label": "Marn-Stack",
+          "value": null
+        }
+      ],
+      "language": [
+        {
+          "id": 1,
+          "title": "Bangla",
+          "slug": "bangla"
+        },
+        {
+          "id": 2,
+          "title": "English",
+          "slug": "english"
+        }
+      ],
+      "keywords": [
+        {
+          "id": 1,
+          "title": "software",
+          "slug": "software"
+        },
+        {
+          "id": 2,
+          "title": "website",
+          "slug": "website"
+        },
+        {
+          "id": 3,
+          "title": "custom software",
+          "slug": "custom-software"
+        },
+        {
+          "id": 4,
+          "title": "website development",
+          "slug": "website-development"
+        },
+        {
+          "id": 5,
+          "title": "website design",
+          "slug": "website-design"
+        }
+      ],
+      "job_attachments": [
+        {
+          "id": 1,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarmale.png"
+        },
+        {
+          "id": 2,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarfemale.png"
+        }
+      ],
+      "job_applications": [],
+      "status": "Approved",
+      "hiring_status": "Open",
+      "is_active": true,
+      "title": "Job One Title",
+      "slug": "job-one-title",
+      "budget_type": "Fixed Rate",
+      "rate_from": "350.00",
+      "rate_to": "450.00",
+      "job_description": "In this role, you will be responsible for conducting comprehensive SEO audits and implementing strategies to optimize websites for improved search engine rankings, increased organic traffic, and enhanced user engagement, while staying up-to-date with the latest SEO trends and algorithm updates.",
+      "hiring_capacity": "5",
+      "experience_level": "Entry Level",
+      "project_duration": "3 Month",
+      "created_at": "2025-07-10T16:41:25.275896+06:00",
+      "updated_at": "2025-07-10T16:41:25.275919+06:00",
+      "buyer": 1,
+      "location": "Remote",
+      "posted_by": "Eamman Olio"
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "title": "Programming & Tech"
+      },
+      "sub_category": {
+        "id": 1,
+        "title": "Custom Software"
+      },
+      "job_type": {
+        "id": 1,
+        "title": "Short Term Project",
+        "slug": "short-term-project"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "label": "Python",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "Django",
+          "value": null
+        },
+        {
+          "id": 3,
+          "label": "React",
+          "value": null
+        },
+        {
+          "id": 4,
+          "label": "Node",
+          "value": null
+        },
+        {
+          "id": 5,
+          "label": "Marn-Stack",
+          "value": null
+        }
+      ],
+      "language": [
+        {
+          "id": 1,
+          "title": "Bangla",
+          "slug": "bangla"
+        },
+        {
+          "id": 2,
+          "title": "English",
+          "slug": "english"
+        }
+      ],
+      "keywords": [
+        {
+          "id": 1,
+          "title": "software",
+          "slug": "software"
+        },
+        {
+          "id": 2,
+          "title": "website",
+          "slug": "website"
+        },
+        {
+          "id": 3,
+          "title": "custom software",
+          "slug": "custom-software"
+        },
+        {
+          "id": 4,
+          "title": "website development",
+          "slug": "website-development"
+        },
+        {
+          "id": 5,
+          "title": "website design",
+          "slug": "website-design"
+        }
+      ],
+      "job_attachments": [
+        {
+          "id": 1,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarmale.png"
+        },
+        {
+          "id": 2,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarfemale.png"
+        }
+      ],
+      "job_applications": [],
+      "status": "Approved",
+      "hiring_status": "Open",
+      "is_active": true,
+      "title": "Job One Title",
+      "slug": "job-one-title",
+      "budget_type": "Fixed Rate",
+      "rate_from": "350.00",
+      "rate_to": "450.00",
+      "job_description": "In this role, you will be responsible for conducting comprehensive SEO audits and implementing strategies to optimize websites for improved search engine rankings, increased organic traffic, and enhanced user engagement, while staying up-to-date with the latest SEO trends and algorithm updates.",
+      "hiring_capacity": "5",
+      "experience_level": "Entry Level",
+      "project_duration": "3 Month",
+      "created_at": "2025-07-10T16:41:25.275896+06:00",
+      "updated_at": "2025-07-10T16:41:25.275919+06:00",
+      "buyer": 1,
+      "location": "Remote",
+      "posted_by": "Eamman Olio"
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "title": "Programming & Tech"
+      },
+      "sub_category": {
+        "id": 1,
+        "title": "Custom Software"
+      },
+      "job_type": {
+        "id": 1,
+        "title": "Short Term Project",
+        "slug": "short-term-project"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "label": "Python",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "Django",
+          "value": null
+        },
+        {
+          "id": 3,
+          "label": "React",
+          "value": null
+        },
+        {
+          "id": 4,
+          "label": "Node",
+          "value": null
+        },
+        {
+          "id": 5,
+          "label": "Marn-Stack",
+          "value": null
+        }
+      ],
+      "language": [
+        {
+          "id": 1,
+          "title": "Bangla",
+          "slug": "bangla"
+        },
+        {
+          "id": 2,
+          "title": "English",
+          "slug": "english"
+        }
+      ],
+      "keywords": [
+        {
+          "id": 1,
+          "title": "software",
+          "slug": "software"
+        },
+        {
+          "id": 2,
+          "title": "website",
+          "slug": "website"
+        },
+        {
+          "id": 3,
+          "title": "custom software",
+          "slug": "custom-software"
+        },
+        {
+          "id": 4,
+          "title": "website development",
+          "slug": "website-development"
+        },
+        {
+          "id": 5,
+          "title": "website design",
+          "slug": "website-design"
+        }
+      ],
+      "job_attachments": [
+        {
+          "id": 1,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarmale.png"
+        },
+        {
+          "id": 2,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarfemale.png"
+        }
+      ],
+      "job_applications": [],
+      "status": "Approved",
+      "hiring_status": "Open",
+      "is_active": true,
+      "title": "Job One Title",
+      "slug": "job-one-title",
+      "budget_type": "Fixed Rate",
+      "rate_from": "350.00",
+      "rate_to": "450.00",
+      "job_description": "In this role, you will be responsible for conducting comprehensive SEO audits and implementing strategies to optimize websites for improved search engine rankings, increased organic traffic, and enhanced user engagement, while staying up-to-date with the latest SEO trends and algorithm updates.",
+      "hiring_capacity": "5",
+      "experience_level": "Entry Level",
+      "project_duration": "3 Month",
+      "created_at": "2025-07-10T16:41:25.275896+06:00",
+      "updated_at": "2025-07-10T16:41:25.275919+06:00",
+      "buyer": 1,
+      "location": "Remote",
+      "posted_by": "Eamman Olio"
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "title": "Programming & Tech"
+      },
+      "sub_category": {
+        "id": 1,
+        "title": "Custom Software"
+      },
+      "job_type": {
+        "id": 1,
+        "title": "Short Term Project",
+        "slug": "short-term-project"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "label": "Python",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "Django",
+          "value": null
+        },
+        {
+          "id": 3,
+          "label": "React",
+          "value": null
+        },
+        {
+          "id": 4,
+          "label": "Node",
+          "value": null
+        },
+        {
+          "id": 5,
+          "label": "Marn-Stack",
+          "value": null
+        }
+      ],
+      "language": [
+        {
+          "id": 1,
+          "title": "Bangla",
+          "slug": "bangla"
+        },
+        {
+          "id": 2,
+          "title": "English",
+          "slug": "english"
+        }
+      ],
+      "keywords": [
+        {
+          "id": 1,
+          "title": "software",
+          "slug": "software"
+        },
+        {
+          "id": 2,
+          "title": "website",
+          "slug": "website"
+        },
+        {
+          "id": 3,
+          "title": "custom software",
+          "slug": "custom-software"
+        },
+        {
+          "id": 4,
+          "title": "website development",
+          "slug": "website-development"
+        },
+        {
+          "id": 5,
+          "title": "website design",
+          "slug": "website-design"
+        }
+      ],
+      "job_attachments": [
+        {
+          "id": 1,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarmale.png"
+        },
+        {
+          "id": 2,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarfemale.png"
+        }
+      ],
+      "job_applications": [],
+      "status": "Approved",
+      "hiring_status": "Open",
+      "is_active": true,
+      "title": "Job One Title",
+      "slug": "job-one-title",
+      "budget_type": "Fixed Rate",
+      "rate_from": "350.00",
+      "rate_to": "450.00",
+      "job_description": "In this role, you will be responsible for conducting comprehensive SEO audits and implementing strategies to optimize websites for improved search engine rankings, increased organic traffic, and enhanced user engagement, while staying up-to-date with the latest SEO trends and algorithm updates.",
+      "hiring_capacity": "5",
+      "experience_level": "Entry Level",
+      "project_duration": "3 Month",
+      "created_at": "2025-07-10T16:41:25.275896+06:00",
+      "updated_at": "2025-07-10T16:41:25.275919+06:00",
+      "buyer": 1,
+      "location": "Remote",
+      "posted_by": "Eamman Olio"
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "title": "Programming & Tech"
+      },
+      "sub_category": {
+        "id": 1,
+        "title": "Custom Software"
+      },
+      "job_type": {
+        "id": 1,
+        "title": "Short Term Project",
+        "slug": "short-term-project"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "label": "Python",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "Django",
+          "value": null
+        },
+        {
+          "id": 3,
+          "label": "React",
+          "value": null
+        },
+        {
+          "id": 4,
+          "label": "Node",
+          "value": null
+        },
+        {
+          "id": 5,
+          "label": "Marn-Stack",
+          "value": null
+        }
+      ],
+      "language": [
+        {
+          "id": 1,
+          "title": "Bangla",
+          "slug": "bangla"
+        },
+        {
+          "id": 2,
+          "title": "English",
+          "slug": "english"
+        }
+      ],
+      "keywords": [
+        {
+          "id": 1,
+          "title": "software",
+          "slug": "software"
+        },
+        {
+          "id": 2,
+          "title": "website",
+          "slug": "website"
+        },
+        {
+          "id": 3,
+          "title": "custom software",
+          "slug": "custom-software"
+        },
+        {
+          "id": 4,
+          "title": "website development",
+          "slug": "website-development"
+        },
+        {
+          "id": 5,
+          "title": "website design",
+          "slug": "website-design"
+        }
+      ],
+      "job_attachments": [
+        {
+          "id": 1,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarmale.png"
+        },
+        {
+          "id": 2,
+          "file": "https://api.mnimedu.com/media/buyer/pro-job/avatarfemale.png"
+        }
+      ],
+      "job_applications": [],
+      "status": "Approved",
+      "hiring_status": "Open",
+      "is_active": true,
+      "title": "Job One Title",
+      "slug": "job-one-title",
+      "budget_type": "Fixed Rate",
+      "rate_from": "350.00",
+      "rate_to": "450.00",
+      "job_description": "In this role, you will be responsible for conducting comprehensive SEO audits and implementing strategies to optimize websites for improved search engine rankings, increased organic traffic, and enhanced user engagement, while staying up-to-date with the latest SEO trends and algorithm updates.",
+      "hiring_capacity": "5",
+      "experience_level": "Entry Level",
+      "project_duration": "3 Month",
+      "created_at": "2025-07-10T16:41:25.275896+06:00",
+      "updated_at": "2025-07-10T16:41:25.275919+06:00",
+      "buyer": 1,
+      "location": "Remote",
+      "posted_by": "Eamman Olio"
+    }
+  ]
+}
