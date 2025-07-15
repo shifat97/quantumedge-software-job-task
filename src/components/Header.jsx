@@ -63,7 +63,7 @@ export default function Header() {
               </span>
             </button>
             <div
-              className={`absolute right-0 left-0 mt-6 bg-[#071400] rounded-md text-white p-4 ${
+              className={`absolute right-0 left-0 mt-6 bg-[#071400] rounded-md text-white p-4 z-100 ${
                 toggle ? "block" : "hidden"
               }`}
             >
