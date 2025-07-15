@@ -9,46 +9,68 @@ import { FaFacebookF, FaApple } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
 import { Link } from "react-router";
-// import axios from "axios";
 import { IoEyeOutline } from "react-icons/io5";
 import { FaRegEyeSlash } from "react-icons/fa6";
+import { useNavigate } from "react-router";
+import { ToastContainer, toast } from "react-toastify";
+import axios from "axios";
 
 export default function Login() {
   const [seePassword, setSeePassword] = useState(false);
-  // const [email, setEmail] = useState("");
-  // const [password, setPassword] = useState("");
-  // const [loading, setLoading] = useState(false);
 
-  // const handleLogin = async (e) => {
-  //   e.preventDefault();
-  //   setLoading(true);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  //   try {
-  //     const response = await axios.post(
-  //       "http://api.mnimedu.com/api/auth/login/",
-  //       {
-  //         email,
-  //         password,
-  //       }
-  //     );
+  const navigate = useNavigate();
 
-  //     console.log("Login successful:", response.data);
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    setLoading(true);
 
-  //     // Optionally store token
-  //     localStorage.setItem("token", response.data.token);
+    try {
+      const response = await axios.post(
+        "http://api.mnimedu.com/api/auth/registration/",
+        {
+          email,
+          password,
+        }
+      );
 
-  //     // Redirect or update UI
-  //     // e.g., navigate('/dashboard')
-  //   } catch (error) {
-  //     console.error("Login failed:", error);
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // };
+      console.log(response.data);
+
+      toast.success("Registration Successful", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+
+      navigate("/login");
+    } catch (e) {
+      toast.error(e.message, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <div className="p-4">
       <section className="bg-[#071400] my-[140px] p-[55px] max-w-[1400px] mx-auto rounded-[28px] flex flex-col gap-10 lg:flex-row lg:gap-[154px] items-center justify-center relative">
+        <ToastContainer />
         <span className="absolute  hidden lg:block z-0">
           <img src={shape} />
         </span>
@@ -62,7 +84,7 @@ export default function Login() {
               <Link to="/register"> Sign Up</Link>
             </span>
           </p>
-          <form>
+          <form onSubmit={handleLogin}>
             <div className="mt-[37.5px]">
               <div className="relative">
                 <span className="absolute top-1/2 -translate-y-1/2 left-6">
@@ -72,6 +94,7 @@ export default function Login() {
                   className="border border-[#4B4B4B] focus:border-[#05AF2B] focus:ring-0 focus:outline-none text-white rounded-full w-full pl-[55px] pr-[24px] py-[13px] placeholder-[#4B4B4B]"
                   type="text"
                   placeholder="Email Address"
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
             </div>
@@ -104,6 +127,7 @@ export default function Login() {
                   className="border border-[#4B4B4B] focus:border-[#05AF2B] focus:ring-0 focus:outline-none text-white rounded-full w-full pl-[55px] pr-[24px] py-[13px] placeholder-[#4B4B4B]"
                   type={`${seePassword ? "text" : "password"}`}
                   placeholder="Password"
+                  onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
             </div>
@@ -124,7 +148,7 @@ export default function Login() {
               type="submit"
               className="bg-[#05AF2B] py-[14px] px-[20px] rounded-full w-full text-white font-semibold text-[14px] mt-[30px]"
             >
-              Create Account
+              {loading ? "Loading..." : "Login"}
             </button>
           </form>
           <div className="mt-[60px] flex justify-center items-center gap-2">
