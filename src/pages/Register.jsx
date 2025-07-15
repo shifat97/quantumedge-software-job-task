@@ -1,16 +1,20 @@
+import { useState } from "react";
 import {
   emailIcon,
   passwordIcon,
   clientImage,
   shape,
 } from "../constants/images";
-import InputField from "../templates/InputField";
 import { FaFacebookF, FaApple } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
 import { Link } from "react-router";
+import { IoEyeOutline } from "react-icons/io5";
+import { FaRegEyeSlash } from "react-icons/fa6";
 
 export default function Register() {
+  const [seePassword, setSeePassword] = useState(false);
+
   return (
     <div className="p-4">
       <section className="bg-[#071400] my-[140px] p-[55px] max-w-[1400px] mx-auto rounded-[28px] flex flex-col gap-10 lg:flex-row lg:gap-[154px] items-center justify-center relative">
@@ -29,21 +33,80 @@ export default function Register() {
           </p>
           <form>
             <div className="mt-[37.5px]">
-              <InputField icon={emailIcon} placeholder={"Email Address"} />
+              <div className="relative">
+                <span className="absolute top-1/2 -translate-y-1/2 left-6">
+                  <img src={emailIcon} alt="" />
+                </span>
+                <input
+                  className="border border-[#4B4B4B] focus:border-[#05AF2B] focus:ring-0 focus:outline-none text-white rounded-full w-full pl-[55px] pr-[24px] py-[13px] placeholder-[#4B4B4B]"
+                  type="text"
+                  placeholder="Email Address"
+                />
+              </div>
             </div>
             <div className="mt-[30px]">
-              <InputField
-                icon={passwordIcon}
-                placeholder={"Password"}
-                eyeIcon={true}
-              />
+              <div className="relative">
+                <span className="absolute top-1/2 -translate-y-1/2 left-6">
+                  <img src={passwordIcon} alt="" />
+                </span>
+                {
+                  <span
+                    onClick={() => setSeePassword(!seePassword)}
+                    className="absolute top-1/2 -translate-y-1/2 right-6 cursor-pointer"
+                  >
+                    {seePassword ? (
+                      <FaRegEyeSlash
+                        width={24}
+                        height={24}
+                        className="text-[#4B4B4B]"
+                      />
+                    ) : (
+                      <IoEyeOutline
+                        width={24}
+                        height={24}
+                        className="text-[#4B4B4B]"
+                      />
+                    )}
+                  </span>
+                }
+                <input
+                  className="border border-[#4B4B4B] focus:border-[#05AF2B] focus:ring-0 focus:outline-none text-white rounded-full w-full pl-[55px] pr-[24px] py-[13px] placeholder-[#4B4B4B]"
+                  type={`${seePassword ? "text" : "password"}`}
+                  placeholder="Password"
+                />
+              </div>
             </div>
             <div className="mt-[30px]">
-              <InputField
-                icon={passwordIcon}
-                placeholder={"Confirm Password"}
-                eyeIcon={true}
-              />
+              <div className="relative">
+                <span className="absolute top-1/2 -translate-y-1/2 left-6">
+                  <img src={passwordIcon} alt="" />
+                </span>
+                {
+                  <span
+                    onClick={() => setSeePassword(!seePassword)}
+                    className="absolute top-1/2 -translate-y-1/2 right-6 cursor-pointer"
+                  >
+                    {seePassword ? (
+                      <FaRegEyeSlash
+                        width={24}
+                        height={24}
+                        className="text-[#4B4B4B]"
+                      />
+                    ) : (
+                      <IoEyeOutline
+                        width={24}
+                        height={24}
+                        className="text-[#4B4B4B]"
+                      />
+                    )}
+                  </span>
+                }
+                <input
+                  className="border border-[#4B4B4B] focus:border-[#05AF2B] focus:ring-0 focus:outline-none text-white rounded-full w-full pl-[55px] pr-[24px] py-[13px] placeholder-[#4B4B4B]"
+                  type={`${seePassword ? "text" : "password"}`}
+                  placeholder="Confirm Password"
+                />
+              </div>
             </div>
             <button
               type="submit"
