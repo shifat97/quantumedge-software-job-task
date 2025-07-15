@@ -40,7 +40,9 @@ export default function Header() {
         </span>
         {/* Logo */}
         <section className="logo flex gap-[22px] items-center">
-          <img width={225} height={57} src={logoImage} alt="Quantum Edge" />
+          <Link to="/">
+            <img width={225} height={57} src={logoImage} alt="Quantum Edge" />
+          </Link>
           <div className="flex gap-[5px] justify-center items-center rounded-full px-[22px] py-[9px] border border-[#05AF2B] bg-[rgba(85,196,26,0.06]">
             <img src={categoryIcon} />
             <p className="text-[#05AF2B]">Category</p>
